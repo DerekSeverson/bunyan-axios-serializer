@@ -1,0 +1,38 @@
+{
+  "name": "bunyan-axios-serializer",
+  "version": "1.0.0-1",
+  "description": "Bunyan Serializer for Axios",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DerekSeverson/bunyan-axios-serializer.git"
+  },
+  "keywords": [
+    "bunyan",
+    "serializer",
+    "axios"
+  ],
+  "author": "Derek Severson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DerekSeverson/bunyan-axios-serializer/issues"
+  },
+  "homepage": "https://github.com/DerekSeverson/bunyan-axios-serializer#readme",
+  "devDependencies": {
+    "axios": "^0.15.3",
+    "bluebird": "^3.4.6",
+    "bunyan": "^1.8.5",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "koa": "next",
+    "koa-route": "next",
+    "lodash": "^4.17.2",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "lodash.iserror": "^3.1.1"
+  }
+}
