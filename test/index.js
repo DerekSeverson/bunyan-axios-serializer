@@ -33,11 +33,7 @@ let log = bunyan.createLogger({
     stream,
     type: 'raw'
   }],
-  serializers: {
-    axios: serializers.axios,
-    err: serializers.axios.err,
-    res: serializers.axios.res
-  }
+  serializers
 });
 
 let requester = axios.create({
